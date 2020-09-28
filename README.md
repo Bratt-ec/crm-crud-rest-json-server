@@ -4,7 +4,7 @@ Pequeño CRUD utilizando JsonServer y principios de Rest.
 # JSON Server
 Primero deberas tener instalado NodeJS porque necesitas usar npm para instalar JSONServer. Una vex que tengas NodeJS instalado abres una terminal y escribes
  ``npm install -g json-server``
-# Iniar el proyecto
+# Iniciar el proyecto
   ```
   1. Descarga o clona el proyecto.
   2. Abres el proyecto en tu editor de código
