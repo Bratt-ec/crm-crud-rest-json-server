@@ -1,0 +1,34 @@
+// 
+import { mostrarAlerta,validar } from './funciones.js';
+import { nuevoCliente } from './API.js';
+
+(function (){
+    const formulario = document.querySelector('#formulario');
+
+    formulario.addEventListener('submit', validarCliente);
+
+    function validarCliente(e){
+        e.preventDefault();
+        // Campos del formulario
+        const nombre = document.querySelector('#nombre').value;
+        const email = document.querySelector('#email').value;
+        const telefono = document.querySelector('#telefono').value;
+        const empresa = document.querySelector('#empresa').value;
+        // validar
+        const cliente = {
+            nombre,
+            email,
+            telefono,
+            empresa
+        }
+        if(!validar(cliente)){
+            //mensaje alerta
+            mostrarAlerta('Todos los campos son obligatorios');
+            return;
+        }
+        nuevoCliente(cliente);
+    }
+
+
+    
+})();

@@ -1,0 +1,39 @@
+{
+  "clientes": [
+    {
+      "nombre": "Carolina Castillo",
+      "email": "carolina@correo.com",
+      "telefono": "0978451223",
+      "empresa": "Carolina Shop",
+      "id": 3
+    },
+    {
+      "nombre": "Alexis Castro",
+      "email": "alexis@correo.com",
+      "telefono": "097845121",
+      "empresa": "Alexis Dev",
+      "id": 4
+    },
+    {
+      "nombre": "Alejandro",
+      "email": "bry2098@gmail.com",
+      "telefono": "0989298066",
+      "empresa": "Nexus Code",
+      "id": 5
+    },
+    {
+      "nombre": "Maria Pardo",
+      "email": "maria@gmail.com",
+      "telefono": "0985745421",
+      "empresa": "Maria Dev",
+      "id": 6
+    },
+    {
+      "nombre": "Diana Toledo",
+      "email": "diana@gmail.com",
+      "telefono": " 0985741245",
+      "empresa": "Diana Dev",
+      "id": 7
+    }
+  ]
+}
